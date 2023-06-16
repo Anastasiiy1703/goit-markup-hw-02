@@ -63,7 +63,7 @@ body {
 
 .hero-button {
     background-color:var(--primary-blue-color);
-    ;
+    cursor:pointer;
 }
 
 .button-name {
@@ -125,6 +125,7 @@ body {
         line-height: 0.67;
         color: var(--primary-white-color);
         background-color: var(--primary-button-color);
+        cursor: pointer;
 }
 .button-site, .buttton-app, .button-design, .button-marketing {
         font-weight: 500;
