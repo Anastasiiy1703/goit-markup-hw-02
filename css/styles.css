@@ -12,11 +12,14 @@ body {
     --primary-button-background: #F4F4FD;
 }
 .logo{
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 0.86;
-    letter-spacing: 0.86;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: none;
 }
 .logo-web {
     color: var(--primary-blue-color);
@@ -119,13 +122,18 @@ body {
         color: var(--primary-white-color);
         background-color: var(--primary-dark-color);
 }
+.list {
+    list-style: none;
+}
 .button-all {
         font-weight: 500;
         font-size: 16px;
-        line-height: 0.67;
-        color: var(--primary-white-color);
-        background-color: var(--primary-button-color);
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: var(--primary-blue-color);
+        background-color: var(--primary-button-background);
         cursor: pointer;
+        font-family: "Roboto", sans-serif;
 }
 .button-site, .buttton-app, .button-design, .button-marketing {
         font-weight: 500;
@@ -149,7 +157,7 @@ body {
     color: var(--primary-black-color);
 }
 .hero-button:focus,.hero-button:hover, .button-list .li:focus, .button-list .li:hover {
-    color: var(--primary-blue-color)
+    color: var(--primary-white-color);
 }
 a:focus, a:hover {
     color:var(--primary-blue-color)
