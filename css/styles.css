@@ -152,6 +152,9 @@ text-align: center
 .footer{
     background-color:var(--primary-dark-color);
 }
+.footer-studio{
+    color:var(--primary-button-background);
+}
 
 .footer-description {
     font-weight: 400;
