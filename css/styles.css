@@ -1,7 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color:#2E2F42;
+    color:#434455;
     text-decoration: none;
+    background-color: #FFFFFF;
 }
 :root {
     --primary-dark-color: #2E2F42;
@@ -20,16 +21,115 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     list-style: none;
+    color:var(--primary-blue-color);
 }
-.logo-web {
-    color: var(--primary-blue-color);
+.link{
+    text-decoration: none;
+        list-style: none;
 }
 .logo-studio {
     color: var(--primary-dark-color);
 }
-.header .logo, .footer .logo {
+.list{
+    list-style: none;
+}
+.link{
+font-weight: 500;
+font-size: 16px;
+letter-spacing: 0.02em;
+color:var(--primary-dark-color);
+text-decoration: none;
+}
+.link:hover, .link:focus {
+    color:var(--primary-button-color);
+}
+.header-adress {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-black-color);
+    font-style: normal;
     text-decoration: none;
 }
+.hero-section{
+    background-color:var(--primary-dark-color);
+}
+.hero-section-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--primary-white-color);
+    background-color: var(--primary-dark-color);
+text-align: center
+}
+.hero-button {
+    background-color: var(--primary-blue-color);
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:var(--primary-white-color);
+}
+.hero-button:hover, .hero-button:focus{
+    background-color:var(--primary-button-color);
+}
+.features-section-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-dark-color);
+}
+.features-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-black-color);
+}
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--primary-dark-color);
+    text-align: center;
+}
+.team-section {
+    background-color: var(--primary-button-background);
+}
+.team-section-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--primary-dark-color);
+    letter-spacing: 0.02em;
+}
+.team-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--primary-black-color);
+    letter-spacing: 0.02em;
+}
+.footer{
+    background-color:var(--primary-dark-color);
+}
+
+
+
+
+.header-adress:hover, .header-adress:focus{
+    color:var(--primary-button-color);
+}
+
 .header-nav .link {
     font-weight: 500;
     font-size: 16px;
@@ -38,36 +138,16 @@ body {
     color: var(--primary-dark-color);
     text-decoration: none;
     }
-.header-adress .link {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 0.67;
-        letter-spacing: 0.67;
-        color: var(--primary-black-color);
-        font-style: normal;
-        text-decoration: none;
+
 }
 .header .list-item,
 .header-adress .list-item, .features-section .list, .doing-section .list, .team-section .list, .card-list, .button-list {
     list-style-type: none;
 }
 
-.hero-section-title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 0.93;
-    letter-spacing: 0.93;
-    color: var(--primary-white-color);
-    background-color:var(--primary-dark-color);
-    ;
-}
 
-.hero-button {
-    background-color:var(--primary-blue-color);
-    cursor:pointer;
-}
+
+
 
 .button-name {
     font-weight: 500;
@@ -77,44 +157,12 @@ body {
     color: var(--primary-white-color);
 }
 
-.features-section-titlee {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 0.83;
-    letter-spacing: 0.83;
-    color: var(--primary-dark-color);
-}
-.features-description {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 0.67;
-        letter-spacing: 0.67;
-        color:var(--primary-black-color);
-}
-.section-title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 0.9;
-        letter-spacing: 0.9;
-        text-transform: capitalize;
-        color: var(--primary-dark-color);
-}
 
-.team-section-title {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 0.83;
-        color:var(--primary-dark-color);
-}
-.team-section {
-    background-color:var(--primary-white-color);
-}
-.team-description {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 0.67;
-        color: var(--primary-black-color);
-}
+
+
+
+
+
 .footer-description {
         font-weight: 400;
         font-size: 16px;
