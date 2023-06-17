@@ -4,6 +4,7 @@ body {
     text-decoration: none;
     background-color: #FFFFFF;
 }
+
 :root {
     --primary-dark-color: #2E2F42;
     --primary-black-color: #434455;
@@ -12,7 +13,8 @@ body {
     --primary-button-color:#404BBF;
     --primary-button-background: #F4F4FD;
 }
-.logo{
+
+.link-logo{
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -23,38 +25,42 @@ body {
     list-style: none;
     color:var(--primary-blue-color);
 }
-.link{
-    text-decoration: none;
-        list-style: none;
-}
+
 .logo-studio {
     color: var(--primary-dark-color);
 }
+
 .list{
     list-style: none;
 }
-.link{
+
+.list>.link{
 font-weight: 500;
 font-size: 16px;
 letter-spacing: 0.02em;
 color:var(--primary-dark-color);
 text-decoration: none;
+line-height: 1.5;
 }
-.link:hover, .link:focus {
+
+.list>.link:hover, .list>.link:focus {
     color:var(--primary-button-color);
 }
+
 .header-adress {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--primary-black-color);
+    color:var(--primary-black-color);
     font-style: normal;
     text-decoration: none;
 }
+
 .hero-section{
     background-color:var(--primary-dark-color);
 }
+
 .hero-section-title {
     font-family: 'Roboto';
     font-style: normal;
@@ -66,6 +72,7 @@ text-decoration: none;
     background-color: var(--primary-dark-color);
 text-align: center
 }
+
 .hero-button {
     background-color: var(--primary-blue-color);
     cursor: pointer;
@@ -76,9 +83,11 @@ text-align: center
     letter-spacing: 0.04em;
     color:var(--primary-white-color);
 }
+
 .hero-button:hover, .hero-button:focus{
     background-color:var(--primary-button-color);
 }
+
 .features-section-title {
     font-weight: 500;
     font-size: 20px;
@@ -86,6 +95,7 @@ text-align: center
     letter-spacing: 0.02em;
     color: var(--primary-dark-color);
 }
+
 .features-description {
     font-weight: 400;
     font-size: 16px;
@@ -93,6 +103,7 @@ text-align: center
     letter-spacing: 0.02em;
     color: var(--primary-black-color);
 }
+
 .section-title {
     font-weight: 700;
     font-size: 36px;
@@ -102,9 +113,15 @@ text-align: center
     color: var(--primary-dark-color);
     text-align: center;
 }
+
+.list-item{
+    background-color:var(--primary-white-color) ;
+}
+
 .team-section {
     background-color: var(--primary-button-background);
 }
+
 .team-section-title {
     font-weight: 500;
     font-size: 20px;
@@ -112,6 +129,7 @@ text-align: center
     color: var(--primary-dark-color);
     letter-spacing: 0.02em;
 }
+
 .team-description {
     font-weight: 400;
     font-size: 16px;
@@ -119,89 +137,49 @@ text-align: center
     color: var(--primary-black-color);
     letter-spacing: 0.02em;
 }
+
 .footer{
     background-color:var(--primary-dark-color);
 }
 
-
-
-
-.header-adress:hover, .header-adress:focus{
-    color:var(--primary-button-color);
-}
-
-.header-nav .link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 0.67;
-    letter-spacing: 0.67;
-    color: var(--primary-dark-color);
-    text-decoration: none;
-    }
-
-}
-.header .list-item,
-.header-adress .list-item, .features-section .list, .doing-section .list, .team-section .list, .card-list, .button-list {
-    list-style-type: none;
-}
-
-
-
-
-
-.button-name {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 0.67;
-    letter-spacing: 0.67;
-    color: var(--primary-white-color);
-}
-
-
-
-
-
-
-
 .footer-description {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 0.67;
-        color: var(--primary-white-color);
-        background-color: var(--primary-dark-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--primary-button-background);
+    background-color: var(--primary-dark-color);
 }
-.list {
-    list-style: none;
+
+.button-portfolio {
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.04em;
+ color: var(--primary-blue-color);
+ background-color: var(--primary-button-background);
+  cursor: pointer;
+ font-family: "Roboto", sans-serif;
 }
-.button-all {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: var(--primary-blue-color);
-        background-color: var(--primary-button-background);
-        cursor: pointer;
-        font-family: "Roboto", sans-serif;
+
+.button-portfolio:hover, .button-portfolio:focus{
+    color:var(--primary-white-color);
+    background-color:var(--primary-button-color);
 }
-.button-site, .buttton-app, .button-design, .button-marketing {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 0.67;
-        letter-spacing: 0.04em;
-        color: var(--primary-blue-color);
-        background-color: var(--primary-button-background);
-}
+
 .card-title {
         font-weight: 500;
         font-size: 20px;
-        line-height: 0.83;
+        line-height: 1.2;
         letter-spacing: 0.02em;
         color:var(--primary-dark-color);
 }
+
 .card-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--primary-black-color);
 }
 .hero-button:focus,.hero-button:hover, .button-list .li:focus, .button-list .li:hover {
@@ -209,4 +187,17 @@ text-align: center
 }
 a:focus, a:hover {
     color:var(--primary-blue-color)
+}
+
+
+
+.button-all {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--primary-blue-color);
+    background-color: var(--primary-button-background);
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
 }
