@@ -14,7 +14,7 @@ body {
     --primary-button-background: #F4F4FD;
 }
 
-.link-logo{
+.logo{
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -49,11 +49,12 @@ line-height: 1.5;
 text-decoration: none;
 }
 .pages-link:hover, .pages-link:focus {
-    color:var(--primary-button-color);
+    color:#404bbf;
 }
 .header-adress{
     font-style: normal;
 }
+
 .adress-link {
     font-weight: 400;
     font-size: 16px;
