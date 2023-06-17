@@ -16,25 +16,28 @@ body {
 
 .link-logo{
     font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     text-transform: uppercase;
     text-decoration: none;
     list-style: none;
-    color:var(--primary-button-background);
+    color:var(--primary-dark-color);
 }
-
+.link-logo:hover, link-logo:focus{
+    color:var(--primary-button-color);
+    background-color:var(--primary-button-color);
+}
 .logo-studio {
-    color: var(--primary-dark-color);
+    color: var(--primary-button-background);
 }
 
 .list{
     list-style: none;
 }
 
-.pages{
+.pages-link{
 font-weight: 500;
 font-size: 16px;
 letter-spacing: 0.02em;
@@ -49,7 +52,7 @@ text-decoration: none;
     color:var(--primary-button-color);
 }
 
-.header-adress {
+.adress-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -58,7 +61,10 @@ text-decoration: none;
     font-style: normal;
     text-decoration: none;
 }
-
+.adress-link:hover, .adress-link:focus{
+    color:var(--primary-button-color);
+    background-color:var(--primary-button-color);
+}
 .hero-section{
     background-color:var(--primary-dark-color);
 }
