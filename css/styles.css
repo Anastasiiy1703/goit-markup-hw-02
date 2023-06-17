@@ -30,7 +30,7 @@ body {
     background-color:var(--primary-button-color);
 }
 .logo-studio {
-    color: #f4f4fd;
+    color:var(--primary-dark-color);
 }
 
 .list{
